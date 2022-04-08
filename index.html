@@ -17,29 +17,181 @@
         <img class="lg:w-1/6 sm:w-1/2 justify-center mx-auto mt-4 " src="./images/logo.png" alt="logo">
 
 
-        <span class="mx-auto mt-4 font-bold lg:text-xl sm:text-2xl">Sign up for free to start listening</span>
+        <span class="mx-auto mt-4 font-bold lg:text-3xl sm:text-2xl">Sign up for free to start listening</span>
 
 
         <div class="w-full mt-4 flex flex-col">
             <button type="button"
-                class="mx-auto text-white bg-[#3b5998] hover:bg-[#3b5998]/90 focus:ring-4 focus:outline-none focus:ring-[#3b5998]/50 font-medium rounded-lg text-sm px-5 py-1 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 sm:w-auto lg:w-1/5 ">
+                class="mx-auto text-white bg-[#3b5998] focus:ring-4 focus:outline-none focus:ring-[#3b5998]/50 font-medium text-sm px-5 py-1 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 sm:w-auto lg:w-1/5 h-10 rounded-full  hover:animate-bounce ">
 
-                <i class="fa-brands fa-facebook-square mr-2"></i>
+                <i alt="fb" class="fa-brands fa-facebook fa-xl mr-8 text-center items-center"></i>
                 Sign up with Facebook
 
             </button>
             <button type="button"
-                class=" mt-5 mx-auto   bg-white hover:bg-[#3b5998]/90 focus:ring-4 focus:outline-none focus:ring-[#3b5998]/50 font-medium rounded-lg text-sm px-5 py-1 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 sm:w-auto lg:w-1/5 text-black border-2">
+                class="mx-auto text-black font-bold bg-[#ffff]  focus:ring-4 focus:outline-none focus:ring-[#3b5998]/50  text-sm px-5 py-1 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 sm:w-auto lg:w-1/5 h-10 rounded-full mt-6 border-2 border-black hover:animate-bounce">
 
-                <i class="fa-brands fa-google mr-2"></i>
+                <img src="/images/google.png" alt="google" class="mr-8 text-center items-center">
                 Sign up with Google
+
 
             </button>
 
 
+
+        </div>
+        <span class="mx-auto my-2">
+            <span class="text-black font-bold text-xl">or</span>
+        </span>
+
+        <div class="mx-auto  flex flex-col flex-wrap lg:w-1/4 my-2 sm:w-full sm:px-5 md:w-1/5 lg:px-0 ">
+            <label for="required-email" class="text-gray-700 mb-1 ">
+                <span class="font-bold">
+                    What is your email
+
+                </span>
+            </label>
+            <input type="text" id="required-email"
+                class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent sm:w-full lg:w-full h-10 mx-auto"
+                name="email" placeholder=" Enter your email" />
+        </div>
+        <div class="mx-auto  flex flex-col flex-wrap lg:w-1/4 my-2 sm:w-full sm:px-5 md:w-1/5 lg:px-0 ">
+            <label for="required-email" class="text-gray-700 mb-1 ">
+                <span class="font-bold">
+                    Confirm your email
+
+
+                </span>
+            </label>
+            <input type="text" id="required-email"
+                class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent sm:w-full lg:w-full h-10 mx-auto"
+                name="email" placeholder=" Enter your email again" />
+        </div>
+        <div class="mx-auto  flex flex-col flex-wrap lg:w-1/4 my-2 sm:w-full sm:px-5 md:w-1/5 lg:px-0 ">
+            <label for="required-email" class="text-gray-700 mb-1 ">
+                <span class="font-bold">
+                    Create a password
+
+
+
+                </span>
+            </label>
+            <input type="password" id="required-email"
+                class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent sm:w-full lg:w-full h-10 mx-auto"
+                name="email" placeholder="Create a password" />
+        </div>
+        <div class="mx-auto  flex flex-col flex-wrap lg:w-1/4 my-2 sm:w-full sm:px-5 md:w-1/5 lg:px-0 ">
+            <label for="required-email" class="text-gray-700 mb-1 ">
+                <span class="font-bold">
+                    What should we call you?
+
+
+
+                </span>
+            </label>
+            <input type="text" id="profile"
+                class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent sm:w-full lg:w-full h-10 mx-auto"
+                name="email" placeholder="Enter profile name" />
+            <span>This appears on your profile.</span>
+        </div>
+        <div class="mx-auto  flex flex-col flex-wrap lg:w-1/4 my-2 sm:w-full sm:px-5 md:w-1/5 lg:px-0">
+            <label for="required-email" class="text-gray-700 mb-1 ">
+                <span class="font-bold">
+                    What's your date of birth?
+
+
+
+                </span>
+            </label>
+            <input type="date" id="required-email"
+                class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent sm:w-full lg:w-full h-10 mx-auto"
+                name="email" placeholder="Enter profile name" />
+
+        </div>
+        <div class="mx-auto  flex flex-col flex-wrap lg:w-1/4 my-2 sm:w-full sm:px-5 md:w-1/5 lg:px-0">
+            <label for="required-email" class="text-gray-700 mb-1 ">
+                <span class="font-bold">
+                    What's your gender?
+
+
+
+                </span>
+            </label>
+            <div class="flex">
+                <div class="flex ml-0">
+                    <span>
+                        Male
+                        <input type="radio" value="Male" name="Male"
+                            class="mx-2 justify-center items-center align-middle">
+                    </span>
+                </div>
+                <div class="flex mx-4">
+                    <span>
+                        Female
+                        <input type="radio" value="Female" name="Female"
+                            class="mx-2 justify-center items-center align-middle">
+                    </span>
+                </div>
+                <div class="flex">
+                    <span>
+                        Non-Binary
+                        <input type="radio" value="Male" name="Male"
+                            class="mx-2 justify-center items-center align-middle">
+                    </span>
+                </div>
+
+            </div>
         </div>
 
+        <div class="mx-auto  flex flex-col flex-wrap lg:w-1/4 my-2 sm:w-full sm:px-5 md:w-1/5 lg:px-0">
+            <div class="flex">
+                <span>
+                    <input type="checkbox" name="I would prefer not to receive marketing messages from Spotify"
+                        id="msg">
+                    <span class="font-semibold">I would prefer not to receive marketing messages from Spotify</span>
+                </span>
+            </div>
+            <div class="mt-2">
+                <span>
+                    <input type="checkbox" name="I would prefer not to receive marketing messages from Spotify"
+                        id="msg">
+                    <span class="font-semibold">Share my registration data with Spotify's content providers for
+                        marketing purpose</span>
+                </span>
+            </div>
+
+        </div>
+        <div class="mx-auto  flex flex-col flex-wrap lg:w-1/4 my-2 sm:w-full sm:px-5 md:w-1/6 lg:px-0 bg-gray-200  ">
+            
+            <div class="mx-5 h-14 flex ">
+                <button class="g-recaptcha" data-sitekey="6LfC9FkfAAAAADMJllzrb2dnGrSVFIvCKV9Q_Udw" data-callback='onSubmit'
+                data-action='submit'>
+                <input type="checkbox" name="I would prefer not to receive marketing messages from Spotify"
+                        id="msg"><span class="font-bold"> I am not a robot</span>
+                </button>
+                
+            </div>
+        </div>
+        <div class="mx-auto  flex flex-col flex-wrap lg:w-1/4 my-2 sm:w-full sm:px-5 md:w-1/6 lg:px-0 ">
+            <span class="text-xs font-normal">By clicking on sign-up, you agree to Spotify's <a href="https://www.spotify.com/in-en/legal/end-user-agreement/" class="text-green-500 underline"> Terms and Conditions of Use.</a></span>
+            <span class="text-xs font-normal">To learn more about how Spotify collects, uses, shares and protects your personal data, please see Spotify's Privacy Policy.
+
+                <a href="https://www.spotify.com/in-en/legal/end-user-agreement/" class="text-green-500 underline"> please see Spotify's Privacy Policy</a></span>
+        </div>
+        <div class="bg-green-500 mx-auto lg:w-1/12 h-10 sm:w-1/2 rounded-full flex flex-wrap  my-5">
+            <button class="flex  w-full">
+                <h1 class="mx-auto my-auto font-semibold"> <a href="https://www.codewithjay.co.in/"> Sign up</a></h1>
+            </button>
+        </div>
+        <div class="mb-20">
+            <button class="w-full">
+                <h1 class="mx-auto my-auto font-semibold">Have an account? <a href="#" class="text-green-500 underline">Log in</a></h1>
+            </button>
+        </div>
+        
     </div>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 </body>
 
 </html>
+<!--  -->
